@@ -1,6 +1,8 @@
 local _ = require 'shim'
 
-local Url = {}
+local Url = {
+	version = "1.0.1"
+}
 
 local function splitTwo(str, sp)
 	local arr = _.split(str, sp, true)

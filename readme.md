@@ -1,6 +1,19 @@
 min-url.lua
 ===
 
+Install
+---
+
+use opm
+
+```bash
+opm install lua-url
+```
+
+
+Usage
+---
+
 ```lua
 local Url = require 'min-url'
 
@@ -17,6 +30,7 @@ test('Url.parse', function(t)
 	})
 end)
 ```
+
 
 TODO
 ---

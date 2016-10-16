@@ -26,6 +26,9 @@ test('Url.parse', function(t)
 		query = '',
 		hash = '#q=search'
 	})
+
+	local url3 = Url.parse('qiyimobile://lf/res.madeindexpage?id=com.iqiyi.ishow&action=PLUGIN_ISHOW_HOMEPAGE')
+	print(_.dump(url3))
 end)
 
 test('Url.format', function(t)
